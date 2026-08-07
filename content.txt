@@ -1,0 +1,503 @@
+TRECENTO RESIDENCES - A BY GAURS
+FULL WEBSITE CONTENT ANALYSIS & MASTER CONTENT DOCUMENT
+=======================================================================
+Source website : https://tracentobygaurs.com
+Site type      : Authorised channel-partner marketing site (not the official developer site)
+Channel partner: Realty Assistant Pvt. Ltd. - RERA UPRERAAGT18286
+Pages analysed : 16 of 16 URLs listed in sitemap.xml
+Compiled on    : 04 August 2026
+
+-----------------------------------------------------------------------
+SECTION 1 - SITE MAP / PAGE INVENTORY
+-----------------------------------------------------------------------
+1.  /                                        Home - hero slider, project intro, amenities teaser,
+                                             setting, investment case, specifications, floor plans,
+                                             site plan (gated), EMI calculator, location advantages,
+                                             gallery, blog + news teasers, enquiry form, RERA footer.
+2.  /about-trecento-residences               The Project - full about copy, quick-facts table,
+                                             developer counters, Trecento-era design story, the setting.
+3.  /condominiums                            Residences - Type 1 / Type 2 area table, unit details,
+                                             full condominium + common-area specifications.
+4.  /floor-plans                             Floor Plans - area comparison table, Type 1 and Type 2
+                                             plan cards (gated / unlock), site plan (gated),
+                                             floor-plan-PDF request form, pricing note.
+5.  /price                                   Price - price-on-request positioning, price table,
+                                             price-influencing factors, investment rationale,
+                                             EMI calculator, finance partners, project/RERA data.
+6.  /amenities                               Lifestyle - Renaissance landscape, Bloomsbury clubhouse,
+                                             signature amenity write-ups, township privileges, FAQs.
+7.  /location-connectivity                   Location - highlights, distance/time table, education,
+                                             healthcare, workspaces, lifestyle, infrastructure
+                                             drivers, location FAQs.
+8.  /about-gaurs-group                       Developer - Gaurs / Gaursons Group profile, legacy
+                                             counters, awards, CREDAI membership.
+9.  /contact-us                              Contact - phone CTA, hero banner, developer legacy
+                                             block, callback enquiry form.
+10. /blogs                                   Blog index - 1 featured + 1 listed article, category filter.
+11. /blogs/trecento-residences-by-gaurs-jaypee-greens-buyers-guide-2026
+                                             Long-form buyer guide (11 min read, 02 May 2026).
+12. /blogs/trecento-residences-jaypee-greens-golf-course-investment-2026
+                                             Long-form investment analysis (10 min read, 18 May 2026).
+13. /news                                    News index - 1 story, category filter (empty sub-tab).
+14. /news/gaurs-trecento-residences-jaypee-greens-launch-update
+                                             Launch news report (5 min read, 28 April 2026).
+15. /privacy-policy                          Privacy Policy / Disclaimer.
+16. /thank-you                               Post-enquiry confirmation page.
+
+Global elements present on every page: sticky header navigation, floating vertical
+"Brochure" tab, enquiry / callback forms, RERA disclosure footer with registered
+address, corporate office address, website and email.
+
+-----------------------------------------------------------------------
+SECTION 2 - PROJECT FACT SHEET
+-----------------------------------------------------------------------
+Project name          : Trecento Residences - A by Gaurs
+Developer             : Gaursons Group (Gaurs - "The Life Artists")
+Project entity        : Golf Lake LLP - LLP Identification No. AAO-5496
+Positioning           : Art of Royal Living - only 60 residences for 60 select families
+Design inspiration    : The Trecento era, 14th-century Italian art / early Renaissance
+Property type         : Residential - 4 BHK condominiums (apartments)
+Configuration         : 4 BHK, two layout types (Type 1 and Type 2)
+Structure             : Single cylindrical tower, 30 storeys (G+30)
+Total units           : 60 (2 condominiums per floor)
+Total blocks          : 01
+Floor-to-floor height : 3.25 m
+Project area          : approx. 5,139.50 sq. mt.
+Township              : Jaypee Greens - 182.92 hectares / 452 acres
+Setting               : In the middle of an international 18-hole golf course
+                        designed by Greg Norman
+Development status    : Under construction
+Launched              : October 2023
+Proposed completion   : July 2028
+RERA registration     : UPRERAPRJ283531 (verify at up-rera.in/projects)
+Price                 : On request - offer available on booking
+Registered address    : Suncourt Tower-A, Plot No. Condominium Apartments, Type-IV,
+                        B6a (CT-4/Tower-A), Golf Course, Land-1, Surajpur Kasna Road,
+                        Sector-19 & 25, Greater Noida - 201310 (U.P.), India
+Marketed address      : Sun Court Tower - A, B6A (CT-4/Tower-A), Jaypee Greens,
+                        near Pari Chowk, Greater Noida, Gautam Buddha Nagar,
+                        Uttar Pradesh - 201306
+Corporate office      : Gaur Biz Park, Plot No. 1, Abhay Khand II, Indirapuram,
+                        Ghaziabad - 201014 (U.P.), India
+Official website ref. : www.trecentoresidencesbygaurs.com
+Email                 : care@trecentobygaurs.com
+Sales phone           : +91 9220646888
+Finance partners      : Aditya Birla Capital (construction finance and home loans),
+                        Canara Bank (home loans)
+
+Headline numbers used across the site:
+  452 acres of Jaypee Greens | 18-hole international golf course | 30 storeys |
+  60 exclusive residences | 2 condominiums per floor | 3.25 m floor-to-floor |
+  5000 / 5050 sq. ft. saleable | 806.65 sq. ft. all-round balcony | 67 projects on the way
+
+-----------------------------------------------------------------------
+SECTION 3 - UNIT & AREA DETAILS
+-----------------------------------------------------------------------
+AREA DETAIL              CONDOMINIUM TYPE 1              CONDOMINIUM TYPE 2
+Carpet area (RERA)       289.17 sq.mt. / 3112.63 sq.ft.  284.28 sq.mt. / 3059.99 sq.ft.
+Covered area             294.86 sq.mt. / 3173.87 sq.ft.  289.86 sq.mt. / 3120.05 sq.ft.
+Balcony area             74.94 sq.mt. / 806.65 sq.ft.    74.94 sq.mt. / 806.65 sq.ft.
+Common area (floor)      42.23 sq.mt. / 454.56 sq.ft.    42.23 sq.mt. / 454.56 sq.ft.
+Saleable area            469.16 sq.mt. / 5050 sq.ft.     464.51 sq.mt. / 5000 sq.ft.
+
+Layout (identical programme in both types):
+  Foyer / Lounge + Living Room + 4 Bedrooms + Dining Area + Puja + Kitchen
+  + 5 Toilets + 4 Dress Rooms + Store + Servant Room with Toilet
+  + Utility Balcony + continuous all-round balcony (806.65 sq. ft.)
+
+Key layout advantages claimed:
+  - Only two condominiums per floor, giving privacy and cross exposure
+  - Continuous all-round balcony wrapping the full residence
+  - "Hemi-vu" spaces with uninterrupted panoramic golf-course views
+  - Community facilities shared between Tower A and a future development tower
+
+-----------------------------------------------------------------------
+SECTION 4 - FLOOR PLANS PAGE
+-----------------------------------------------------------------------
+- Two plan cards: Condominium Type 1 (5050 sq. ft.) and Condominium Type 2 (5000 sq. ft.).
+- Both plan images and the site plan are gated behind an "Unlock" / lead-capture action.
+- Site plan elements described: main entry/exit and dedicated drop-off at Tower A,
+  future tower, swimming pool, stepped pool, waterfall area, sky walk winding above the
+  landscape, amphitheatre, wooden decks with planting beds, outdoor open gym,
+  pre-teen area, teen area, senior citizen area, pray area (deity place), pathways.
+- Floor-plan PDF is delivered by email after form submission (name, phone, preferred type);
+  the official brochure is stated to contain Type 1 and Type 2 drawings, cluster plan,
+  site plan, dimensions, specifications and orientation references.
+- Pricing on this page is again "on request", one-to-one by floor, orientation, availability.
+
+-----------------------------------------------------------------------
+SECTION 5 - SPECIFICATIONS
+-----------------------------------------------------------------------
+CONDOMINIUM SPECIFICATIONS
+Flooring        : Imported marble in drawing, dining, kitchen and bedrooms; granite stone
+                  in kitchen; designer tiles in toilets; laminated wooden floor in dresser;
+                  anti-skid ceramic tiles in balconies and utility areas.
+Doors & windows : Aluminium / uPVC sliding and openable doors and windows with DGU glass;
+                  pre-laminated elegant doors set in hardwood frames.
+Kitchen         : Counter with stainless-steel sink; branded RO, hob and chimney with
+                  exhaust pipe; modular cabinets in pre-laminated board; ceramic tiles
+                  2 ft above the counter.
+AC & geysers    : VRV / split ACs in bedrooms, drawing-dining and kitchen; hot water in
+                  toilets and kitchen through a heat pump.
+Woodwork        : Wardrobes in all dressing rooms.
+Railing         : Glass balcony railing with SS fittings; mild-steel staircase railing.
+Ceilings        : Good-quality POP false ceiling in all rooms, living/dining and toilets.
+Sanitary work   : Corrosion-free CPVC pipes and fittings; reputed-brand CP fittings,
+                  wash basins and wall-mounted WCs.
+Wiring/switches : Fire-resistant copper wiring in concealed PVC conduits; modular switches;
+                  TV points in all rooms; Wi-Fi provision.
+Security        : Video intercom phone.
+
+COMMON-AREA SPECIFICATIONS
+Elevators       : High-speed elevators serving all floors plus a dedicated service elevator.
+Power supply    : Electrical supply with power backup from the township.
+Exterior finish : Exterior-grade finish with texture paint.
+Staircase       : Stone-and-tile floor combination; MS railing as per design.
+Fire fighting   : Sprinklers, hydrant, hose reel and smoke detectors as per approved plans.
+Security & FTTH : Entrance lobby, CCTV system, video door phone, fibre to the home.
+
+-----------------------------------------------------------------------
+SECTION 6 - AMENITIES
+-----------------------------------------------------------------------
+THE LANDSCAPE - "RENAISSANCE"
+  Skywalk (elevated arched promenade over the landscape) | landscaped pathways |
+  swimming pool | stepped pool | waterfall area | wooden decks with planting |
+  outdoor open gym | amphitheatre | pre-teen area | teen area | senior citizen area |
+  pray area (deity place)
+
+THE CLUBHOUSE - "BLOOMSBURY"
+  Gymnasium | lounge | audio visual room (tiered recliner seating) | meeting room |
+  multi-purpose / party hall | indoor gaming zone: table tennis, snooker, chess,
+  cards table, carrom
+
+SAFETY & SERVICES
+  Secure entrance lobby | CCTV surveillance | video door phone | in-home video intercom |
+  gated township security | fire sprinklers and smoke detectors | township power backup |
+  high-speed and service elevators | FTTH
+
+JAYPEE GREENS TOWNSHIP PRIVILEGES (developed and managed by Jaiprakash Associates Ltd.;
+certain facilities are members-only and/or paid)
+  18-hole international golf course (Greg Norman design, among the world's longest) |
+  golf practice range | golf & spa resort | Boomerang Club | The Atlantic sports complex |
+  Olympic-size swimming pool | indoor basketball court | synthetic badminton court |
+  squash courts | lawn tennis courts | temple | school | town centre | fire station |
+  gated security | water bodies and extensive green cover
+
+Note: community facilities (club with gymnasium, party hall, swimming pool, landscaped
+garden, audio visual room, lounge, meeting room, indoor games) are shared between
+Tower A and the future development tower.
+
+-----------------------------------------------------------------------
+SECTION 7 - LOCATION & CONNECTIVITY
+-----------------------------------------------------------------------
+Address: Jaypee Greens, near Pari Chowk, Greater Noida, Gautam Buddha Nagar,
+Uttar Pradesh - PIN 201306.
+
+CONNECTIVITY HIGHLIGHTS
+  - Jaypee Greens / Pari Chowk and Delta 1 / Alpha 1 metro stations (Aqua Line) close by
+  - Direct connectivity via the Yamuna Expressway
+  - Seamless access to the Noida - Greater Noida Expressway
+  - Easy reach of the upcoming Noida International Airport at Jewar
+  - Buddh International Circuit (F1 track) a short drive away
+  - Connected to Delhi via the DND Expressway and Mahamaya Flyover
+  - Within the Delhi - Mumbai Industrial Corridor influence zone
+
+DISTANCE TABLE (indicative, map-based)
+DESTINATION                                    DISTANCE     APPROX. TIME
+Pari Chowk Metro Station                        2 km          5 mins
+Alpha 1 Metro Station                           4 km          8 mins
+Yamuna Expressway entry point                   6 km          8 mins
+Galgotias College                               3 km          5 mins
+Yatharth Hospital                               4 km          7 mins
+Radisson Blu Hotel                              4 km          6 mins
+Shaheed Vijay Singh Pathik Sports Complex       3 km          6 mins
+Buddh International Circuit (F1 track)          9 km         12 mins
+Noida International Airport (Jewar)            25 km         30 mins
+Sector 16 Film City / DND (Delhi side)         28 km         35 mins
+
+EDUCATION NEARBY
+  Galgotias College 5 min | Jaypee Public School 7 min | GL Bajaj Institute 8 min |
+  Sharda University 10 min | Delhi Public School Greater Noida 10 min |
+  Galgotias University 12 min | Bennett University 15 min |
+  Gaurs International School 15 min
+
+HEALTHCARE NEARBY
+  Yatharth Super-Specialty Hospital 7 min | Sharda Hospital 10 min |
+  Kailash Hospital 12 min | Jaypee Hospital Noida 20 min | Fortis Noida 25 min |
+  Apollo Noida 28 min
+
+WORKSPACES & BUSINESS
+  Knowledge Park I-IV 5-15 min | Commercial Park Greater Noida 10 min |
+  Surajpur Industrial Area 12 min | Advant Navis Business Park 15 min |
+  Adobe Systems and MetLife on the Noida - Greater Noida Expressway 20 min |
+  YEIDA industrial belt 20 min
+
+LIFESTYLE & LEISURE
+  Jaypee Greens Golf Course at the doorstep | Boomerang Club and Atlantic Sports Complex
+  inside the township | Jaypee Greens Town Centre 5 min | Radisson Blu Hotel 6 min |
+  The Grand Venice Mall 10 min | Buddh International Circuit 12 min |
+  proposed Night Safari nearby
+
+INFRASTRUCTURE DRIVING APPRECIATION
+  Noida International Airport at Jewar (positioned as India's largest airport) |
+  Film City at Sector 21, YEIDA | proposed Night Safari near Jaypee Greens |
+  proposed international cricket stadium | upcoming commercial establishments near
+  Jaypee Greens | metro expansion across the Greater Noida corridor |
+  Delhi - Mumbai Industrial Corridor | YEIDA as the next growth driver
+
+-----------------------------------------------------------------------
+SECTION 8 - PRICE & PAYMENT
+-----------------------------------------------------------------------
+CONDOMINIUM TYPE   CARPET (RERA)      SALEABLE     CONFIG   PRICE
+Type 1             3112.63 sq. ft.    5050 sq.ft.  4 BHK    On request*
+Type 2             3059.99 sq. ft.    5000 sq.ft.  4 BHK    On request*
+* Subject to change without notice; excludes registration, stamp duty, GST where
+  applicable and other statutory charges.
+
+Factors that affect the final quote, as stated on the site:
+  1. Floor level - higher floors in the 30-storey tower carry a view premium
+  2. Layout - Type 1 (5050 sq. ft.) vs Type 2 (5000 sq. ft.)
+  3. Golf-course orientation - views over the 18-hole course carry a premium
+  4. Payment plan - construction-linked, down-payment and flexi plans priced differently
+  5. Booking offer currently running
+  6. Live availability across only 60 units
+
+EMI calculator (on Home and Price pages) - default illustrative settings:
+  advance payment 20% (shown as Rs 1,00,00,000), duration 25 years, interest 7.0% p.a.,
+  estimated EMI displayed as Rs 2,82,712 per month. Figures are indicative only.
+Home-loan assistance: Aditya Birla Capital and Canara Bank.
+Page last reviewed (Price page): July 2026.
+
+-----------------------------------------------------------------------
+SECTION 9 - INVESTMENT RATIONALE (as presented on the site)
+-----------------------------------------------------------------------
+KEY REASONS
+  - Renowned Gaursons Group with 29+ years of commitment
+  - Established Jaypee Greens address near Pari Chowk
+  - Location in the middle of an international 18-hole golf course
+  - Unit prices projected to appreciate year on year
+  - Ultra-low density - only 60 exclusive residences
+
+ADDITIONAL VALUE
+  - Direct Yamuna and Noida - Greater Noida Expressway links
+  - Easy reach of the upcoming Noida International Airport
+  - Proposed Night Safari, cricket stadium and commercial projects nearby
+
+FOUR ARGUMENTS DEVELOPED IN THE BLOG CONTENT
+  1. Scarcity - 60 homes is the entire supply, permanently; most NCR luxury towers hold
+     300-800 units. Thin resale supply is argued to protect pricing.
+  2. Golf-course premium - the view cannot be built out; green cover is contractual;
+     all-round balconies mean every unit, not just corners, captures the premium.
+  3. Infrastructure tailwinds - airport, Film City, Night Safari, stadium, DMIC node,
+     metro expansion, YEIDA industrial belt.
+  4. Developer and timing - RERA registration plus construction mobilisation reduce
+     execution risk, while 2026 pricing precedes construction-linked escalations
+     towards the July 2028 completion.
+
+BUYER PERSONAS DEFINED ON THE SITE
+  The Connoisseur - wants an ultra-luxury, low-density statement home
+  The Upgrader Family - moving up from a 3-4 BHK to 5000+ sq. ft. with servant room
+  The NRI Buyer - values a trusted brand, RERA registration and rental prospects
+  The Investor - early entry into a scarce asset in a high-growth corridor
+
+Note: the site's own disclaimer states this content is informational and does not
+constitute investment advice.
+
+-----------------------------------------------------------------------
+SECTION 10 - DEVELOPER: GAURS / GAURSONS GROUP
+-----------------------------------------------------------------------
+Founded              : 1995
+Motto                : "The Life Artists" - and "Success founded on trust"
+Portfolio            : Residential and commercial; affordable to ultra-luxury;
+                       apartments, villas and penthouses
+Landmark townships   : Gaur City, Gaur Yamuna City, Gaur Saundaryam and others
+Awards               : Realty+ Excellence Award 2022 - Luxury Project of the Year
+                       (The Islands by Gaurs)
+Affiliation          : Member of CREDAI
+
+LEGACY COUNTERS USED ON THE SITE
+  28+/29+ years of unwavering commitment
+  65+ successfully delivered projects
+  40,000+ possessions given between 2014 and 2022
+  65,000+ delivered units
+  1 lakh+ happy customers
+  6 million+ sq. mt. area developed
+  67 projects on the way
+
+-----------------------------------------------------------------------
+SECTION 11 - GALLERY & MEDIA INVENTORY
+-----------------------------------------------------------------------
+Gallery captions (artistic impressions): Living Room, Dining Room, Master Bedroom,
+Grand Entrance, Multi Purpose Hall, Gaming Zone, Gymnasium, Audio Visual Room.
+Additional visual sections: hero sliders on Home, About and Contact; amenity slider on
+Home and Amenities; site-plan and floor-plan graphics behind unlock gates.
+Downloadable collateral referenced: project brochure (floating "Brochure" tab and
+Download Brochure buttons) and floor-plan PDF (email delivery after form fill).
+
+-----------------------------------------------------------------------
+SECTION 12 - BLOG & NEWS INVENTORY
+-----------------------------------------------------------------------
+BLOG 1 - "Golf Course Living in NCR: Why Trecento Residences at Jaypee Greens Is 2026's
+Smartest Ultra-Luxury Investment" - Real Estate Investment, 18 May 2026, 10 min read.
+Sections: the scarcity thesis, the golf-course premium, infrastructure tailwinds,
+the developer factor, entry timing, FAQ.
+
+BLOG 2 - "Trecento Residences by Gaurs, Jaypee Greens: The Art of Royal Living -
+Complete Buyer's Guide" - Real Estate, 02 May 2026, 11 min read.
+Sections: about the project, condominium types and areas, price and payment,
+amenities and lifestyle, location and connectivity, who should buy, investment
+analysis, FAQ.
+
+NEWS 1 - "Gaurs Unveils Trecento Residences at Jaypee Greens - Only 60 Ultra-Luxury
+4 BHK Condominiums in a 30-Storey Golf Course Tower" - Real Estate News,
+28 April 2026, 5 min read. Covers the launch, the Trecento-era design story, buyer
+inclusions, a key-facts box and the corridor's infrastructure pipeline.
+
+-----------------------------------------------------------------------
+SECTION 13 - COMPILED FAQ (all pages)
+-----------------------------------------------------------------------
+Q. Where is Trecento Residences located?
+A. Sun Court Tower - A, B6A (CT-4/Tower-A), Jaypee Greens, near Pari Chowk,
+   Greater Noida, Gautam Buddha Nagar, Uttar Pradesh - PIN 201306.
+
+Q. Is it a residential or a commercial project?
+A. Residential - 4 BHK lavish condominiums.
+
+Q. Is the project RERA approved?
+A. Yes - UPRERAPRJ283531, verifiable at up-rera.in/projects.
+
+Q. What is the construction status?
+A. Newly launched in October 2023 and under construction; completion proposed July 2028.
+
+Q. How many residences are there?
+A. Only 60 - two per floor across 30 storeys, sized 5000 and 5050 sq. ft. saleable.
+
+Q. What sizes are available?
+A. Type 1 at 5050 sq. ft. and Type 2 at 5000 sq. ft. saleable, both with
+   806.65 sq. ft. all-round balconies.
+
+Q. What is the price?
+A. Shared on request, with an offer available on booking; quotes are unit-specific by
+   floor and orientation. Call +91 9220646888 for the current sheet.
+
+Q. When is possession expected?
+A. Proposed completion is July 2028.
+
+Q. Who is the developer?
+A. The Gaursons Group (Gaurs), active since 1995, with 65+ delivered projects and
+   65,000+ delivered units.
+
+Q. What makes Trecento different from other luxury launches?
+A. A single 30-storey tower with only 60 residences, two per floor, standing in the
+   middle of an international 18-hole golf course.
+
+Q. What is the nearest metro station?
+A. Jaypee Greens / Pari Chowk on the Aqua Line, with Delta 1 also close by.
+
+Q. How is the road connectivity?
+A. Direct links to Noida, the Greater Noida Expressway and the Yamuna Expressway, with
+   the DND Expressway and Mahamaya Flyover leading onwards to Delhi.
+
+Q. How far is the Noida International Airport?
+A. An easy drive via the Yamuna Expressway, whose entry point is about 8 minutes away
+   (airport roughly 25 km / 30 minutes).
+
+Q. What is the PIN code?
+A. 201306.
+
+Q. Is the location good for investment?
+A. The site argues yes, citing the established Jaypee Greens address plus the upcoming
+   airport, proposed Night Safari, cricket stadium, Film City and new commercial projects.
+
+Q. What amenities are offered?
+A. Renaissance landscape - skywalk, pathway, swimming pool, stepped pool, open gym,
+   pre-teen area, waterfall area, amphitheatre, decks, teen area, senior citizen area,
+   pray area. Bloomsbury clubhouse - gymnasium, lounge, audio visual room, table tennis,
+   snooker, cards, carrom, meeting room.
+
+Q. Does the project have a golf course?
+A. The tower stands in the middle of Jaypee Greens' international 18-hole Greg Norman
+   golf course, with panoramic views from every all-round balcony.
+
+Q. Is there a swimming pool?
+A. Yes - a swimming pool and a stepped pool, plus a waterfall area and wooden decks.
+
+Q. Are the clubhouse facilities shared?
+A. Yes - community facilities are common to Tower A and the future development tower.
+
+Q. Is it a gated and secure community?
+A. Yes - secure entrance lobby, CCTV, video door phone and in-home video intercom
+   within the gated Jaypee Greens township.
+
+Q. How do I book a site visit?
+A. Submit the website enquiry form or call +91 9220646888.
+
+-----------------------------------------------------------------------
+SECTION 14 - LEGAL, RERA & DISCLAIMER NOTES
+-----------------------------------------------------------------------
+- UP RERA registration number: UPRERAPRJ283531; register at https://up-rera.in/projects
+- Project entity: Golf Lake LLP, LLP Identification No. AAO-5496
+- The website states it is not the official developer website; it belongs to the
+  authorised channel partner for information and marketing purposes only, and all
+  rights in logos and images remain with the developer.
+- Users accessing the site are deemed to accept the disclaimer and to acknowledge that
+  brochures and marketing collateral are informational only and not relied upon for
+  any booking or purchase.
+- Privacy policy: enquiry data (name, phone, email) is used only to respond to the
+  enquiry; data is not sold to third parties and may be shared with authorised
+  representatives to assist with project queries.
+- Accuracy: project details, pricing, floor plans and availability are indicative and
+  subject to change without prior notice; users are advised to verify with the
+  authorised sales team.
+- Channel partner: Realty Assistant Pvt. Ltd., RERA UPRERAAGT18286.
+
+-----------------------------------------------------------------------
+SECTION 15 - CONTACT & CONVERSION POINTS
+-----------------------------------------------------------------------
+Sales phone   : +91 9220646888
+Email         : care@trecentobygaurs.com
+Site referenced: www.trecentoresidencesbygaurs.com
+Corporate office: Gaur Biz Park, Plot No. 1, Abhay Khand II, Indirapuram,
+                  Ghaziabad - 201014 (U.P.), India
+
+Conversion elements observed:
+  - "Enquiry Now" hero CTA on Home and Contact
+  - Floating vertical "Brochure" tab on every page
+  - "Download Brochure" buttons on Home and About
+  - Gated floor plans and site plan with "Unlock Now" (premium badge)
+  - Floor-plan PDF email form with preferred-condominium-type selector
+  - EMI calculator with loan amount, advance payment, duration and interest sliders
+  - "Get Full Details" / "Get Latest Price List" / "Request Price List" CTAs
+  - Callback form in the footer of most pages, plus a Book Site Visit widget on
+    blog and news articles
+  - Google Maps link on Home and Location pages
+  - Dedicated /thank-you confirmation page after submission
+
+-----------------------------------------------------------------------
+SECTION 16 - OBSERVATIONS & CONTENT GAPS
+-----------------------------------------------------------------------
+1. Consistency: the developer legacy counter appears as both "28+" (About Gaurs Group)
+   and "29+" (Home, Contact) years - worth aligning to one figure.
+2. Gated assets: floor plans and the site plan are behind unlock gates, so the pages
+   carry no visible plan imagery for first-time visitors; consider a low-resolution
+   teaser to reduce bounce.
+3. Pricing: no indicative price band or per-sq.-ft. range anywhere on the site, which
+   limits qualification of leads; the price table repeats "On Request" in every cell.
+4. News section: the "Real Estate News" category tab shows "0 stories" while a story
+   exists in the main list - a filtering bug worth fixing.
+5. Payment plans: construction-linked, down-payment and flexi plans are mentioned but
+   never detailed; a payment-plan page would strengthen the Price section.
+6. Missing content: no construction-progress gallery, no possession/handover process
+   page, no maintenance-charge or club-membership cost information, no virtual tour,
+   no testimonials, and no dedicated FAQ page (FAQs are scattered across four pages).
+7. Structured data: FAQ schema exists on Home, Amenities and Location pages, but the
+   two blog FAQs use plain accordions and would gain visibility with FAQ schema.
+8. Naming: the domain (tracentobygaurs.com), the sitemap host
+   (trecentoresidencesbygaur.com) and the footer website
+   (trecentoresidencesbygaurs.com) differ - canonical alignment is recommended.
+
+=======================================================================
+END OF DOCUMENT - Trecento Residences - A by Gaurs, website content analysis.
+All figures reproduced from the source website and subject to change; verify with
+UP RERA (UPRERAPRJ283531) and the authorised sales team before any decision.
+=======================================================================

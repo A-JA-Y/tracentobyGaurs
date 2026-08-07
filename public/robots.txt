@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.tracentobygaurs.com
+
+# Sitemaps
+Sitemap: https://www.tracentobygaurs.com/sitemap.xml

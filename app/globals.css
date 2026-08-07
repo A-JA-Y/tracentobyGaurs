@@ -1,0 +1,419 @@
+@import "tailwindcss";
+
+/* ══════════════════════════════════════════════════════════════
+   TRECENTO RESIDENCES — DESIGN SYSTEM
+   Ink (midnight) + antique gold + parchment cream.
+   Drawn from the brochure: 14th-century Italian Trecento palette.
+   ══════════════════════════════════════════════════════════════ */
+
+@theme {
+  /* Ink — the tower at dusk */
+  --color-ink: #0d2029;
+  --color-ink-deep: #071219;
+  --color-ink-soft: #16323c;
+  --color-ink-line: #1e3f4a;
+
+  /* Antique gold — gilding, frames, fresco leaf */
+  --color-gold: #c6a45c;
+  --color-gold-light: #e6d2a0;
+  --color-gold-dark: #9a7b36;
+
+  /* Parchment */
+  --color-cream: #fbf8f2;
+  --color-sand: #f2ead9;
+  --color-sand-deep: #e6dbc4;
+
+  /* Type */
+  --color-carbon: #16202a;
+  --color-slate: #4d5c66;
+  --color-mist: #7b8a93;
+
+  --font-display: var(--font-display), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --rule: rgba(198, 164, 92, 0.28);
+  --rule-strong: rgba(198, 164, 92, 0.55);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 96px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-carbon);
+  background: var(--color-cream);
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: #fff;
+}
+
+/* ── Headings ─────────────────────────────────────────────────── */
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: 300;
+  letter-spacing: -0.005em;
+  line-height: 1.08;
+}
+
+h5,
+h6 {
+  font-family: var(--font-sans);
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  font-family: var(--font-sans);
+}
+
+/* ── Editorial helpers ────────────────────────────────────────── */
+
+/* Small caps eyebrow above every section title */
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--color-gold-dark);
+}
+
+.eyebrow-light {
+  color: var(--color-gold);
+}
+
+/* Short gold rule that sits under a section heading */
+.rule-gold {
+  display: block;
+  width: 64px;
+  height: 1px;
+  background: linear-gradient(90deg, var(--color-gold), rgba(198, 164, 92, 0));
+}
+
+.rule-gold-center {
+  margin-inline: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(198, 164, 92, 0),
+    var(--color-gold),
+    rgba(198, 164, 92, 0)
+  );
+  width: 96px;
+}
+
+/* Gilded text for numerals */
+.gilt {
+  background: linear-gradient(
+    130deg,
+    var(--color-gold-dark) 0%,
+    var(--color-gold-light) 42%,
+    var(--color-gold) 68%,
+    var(--color-gold-dark) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Hairline frame used on dark panels — the brochure's double border */
+.gilt-frame {
+  position: relative;
+}
+.gilt-frame::before,
+.gilt-frame::after {
+  content: "";
+  position: absolute;
+  inset: 14px;
+  border: 1px solid rgba(198, 164, 92, 0.32);
+  pointer-events: none;
+}
+.gilt-frame::after {
+  inset: 22px;
+  border-color: rgba(198, 164, 92, 0.14);
+}
+
+/* Fine paper grain over dark hero sections */
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.055;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* ── Motion ───────────────────────────────────────────────────── */
+
+/* Slow zoom on hero imagery */
+@keyframes kenburns {
+  from {
+    transform: scale(1.06) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.16) translate3d(-1.2%, -1.4%, 0);
+  }
+}
+.animate-kenburns {
+  animation: kenburns 22s ease-out forwards;
+}
+
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translateY(26px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.animate-rise {
+  animation: riseIn 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes drawLine {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.animate-draw {
+  transform-origin: left center;
+  animation: drawLine 1.1s cubic-bezier(0.22, 1, 0.36, 1) 0.35s both;
+}
+
+@keyframes softPulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.animate-softpulse {
+  animation: softPulse 2.6s ease-in-out infinite;
+}
+
+/* Scroll reveal (driven by components/Reveal.jsx) */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.85s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.85s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-kenburns,
+  .animate-rise,
+  .animate-draw,
+  .animate-softpulse {
+    animation: none;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* ── Components ───────────────────────────────────────────────── */
+
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: var(--color-gold);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  padding: 0.95rem 2rem;
+  transition: background 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+.btn-gold:hover {
+  background: var(--color-gold-dark);
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  border: 1px solid var(--rule-strong);
+  color: var(--color-gold);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  padding: 0.95rem 2rem;
+  transition: background 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+.btn-ghost:hover {
+  background: var(--color-gold);
+  color: #fff;
+  border-color: var(--color-gold);
+}
+
+/* Image card that lifts and zooms */
+.tile {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.tile img {
+  transition: transform 1.1s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.tile:hover img {
+  transform: scale(1.08);
+}
+
+/* Standard scrim so white text always reads on photography */
+.scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(7, 18, 25, 0.9) 0%,
+    rgba(7, 18, 25, 0.45) 38%,
+    rgba(7, 18, 25, 0.05) 72%
+  );
+}
+
+/* Prose overrides for MDX article bodies */
+.prose-trecento :is(h2, h3) {
+  font-family: var(--font-display);
+  font-weight: 400;
+  color: var(--color-ink);
+}
+.prose-trecento h2 {
+  font-size: clamp(1.75rem, 3vw, 2.35rem);
+  margin-top: 2.4em;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--rule);
+}
+.prose-trecento h3 {
+  font-size: clamp(1.3rem, 2.2vw, 1.6rem);
+  margin-top: 1.9em;
+  margin-bottom: 0.5em;
+}
+.prose-trecento p {
+  color: var(--color-slate);
+  line-height: 1.85;
+  margin-bottom: 1.15em;
+}
+.prose-trecento :is(ul, ol) {
+  margin: 0 0 1.4em 1.15em;
+  color: var(--color-slate);
+  line-height: 1.85;
+}
+.prose-trecento ul {
+  list-style: none;
+  margin-left: 0;
+}
+.prose-trecento ul > li {
+  position: relative;
+  padding-left: 1.35em;
+  margin-bottom: 0.5em;
+}
+.prose-trecento ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.72em;
+  width: 6px;
+  height: 1px;
+  background: var(--color-gold);
+}
+.prose-trecento ol {
+  list-style: decimal;
+}
+.prose-trecento ol > li {
+  margin-bottom: 0.5em;
+  padding-left: 0.25em;
+}
+.prose-trecento strong {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+.prose-trecento a {
+  color: var(--color-gold-dark);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.prose-trecento blockquote {
+  border-left: 2px solid var(--color-gold);
+  padding: 0.35em 0 0.35em 1.4em;
+  margin: 1.8em 0;
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-style: italic;
+  color: var(--color-ink);
+}
+.prose-trecento table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.8em 0;
+  font-size: 0.9rem;
+}
+.prose-trecento :is(th, td) {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-sand-deep);
+}
+.prose-trecento th {
+  background: var(--color-ink);
+  color: var(--color-gold-light);
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.prose-trecento td {
+  color: var(--color-slate);
+}
+
+/* Thin, gold scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(198, 164, 92, 0.5) transparent;
+}
+*::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+}
+*::-webkit-scrollbar-thumb {
+  background: rgba(198, 164, 92, 0.45);
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(198, 164, 92, 0.75);
+}
