@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 
 module.exports = {
-  siteUrl: "https://www.tracentobygaurs.com",
+  siteUrl: "https://tracentobygaurs.com",
   generateRobotsTxt: true,
   generateIndexSitemap: false,
 

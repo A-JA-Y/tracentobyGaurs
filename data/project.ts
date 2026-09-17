@@ -4,7 +4,7 @@
  * channel-partner content sheet (compiled 04 August 2026).
  */
 
-export const SITE_URL = "https://www.tracentobygaurs.com";
+export const SITE_URL = "https://tracentobygaurs.com";
 
 export const project = {
   name: "Trecento Residences - A by Gaurs",
