@@ -31,10 +31,9 @@ const workSans = Work_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
 
-  title:
-    "Trecento Residences – A Gaur New Project in Greater Noida | 4 BHK at Jaypee Greens",
+  title: "Trecento Residences | Gaur New Project in Greater Noida",
   description:
-    "Trecento Residences is a new Gaur project in Greater Noida — 60 ultra-luxury 4 BHK condominiums in a 30-storey tower inside an 18-hole golf course at Jaypee Greens. A rare Gaur luxury project from one of the most established names in Gaur real estate. UP RERA UPRERAPRJ283531.",
+    "Trecento Residences, a Gaur new project in Greater Noida: 60 ultra-luxury 4 BHK condominiums in a golf-course tower at Jaypee Greens.",
 
   alternates: {
     canonical: `${SITE_URL}/`,
@@ -45,10 +44,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title:
-      "Trecento Residences – A Gaur New Project in Greater Noida | 4 BHK at Jaypee Greens",
+    title: "Trecento Residences | Gaur New Project in Greater Noida",
     description:
-      "Only 60 residences for 60 select families — a Gaur Greater Noida new launch, 5000+ sq. ft. 4 BHK condominiums, two per floor, in the middle of an 18-hole golf course.",
+      "Only 60 residences, a Gaur Greater Noida new launch: 5000+ sq. ft. 4 BHK condominiums, two per floor, on an 18-hole golf course.",
     url: `${SITE_URL}/`,
     siteName: "Trecento Residences - A by Gaurs",
     images: [
@@ -65,8 +63,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title:
-      "Trecento Residences – A Gaur New Project in Greater Noida | 4 BHK at Jaypee Greens",
+    title: "Trecento Residences | Gaur New Project in Greater Noida",
     description:
       "60 exclusive 4 BHK condominiums, two per floor, in a 30-storey golf-course tower at Jaypee Greens.",
     images: [`${SITE_URL}/trecento-hero.webp`],

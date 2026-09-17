@@ -31,7 +31,7 @@ export const project = {
   /* Real Revenue's UP RERA agent registration — every mention is hidden while this is empty. */
   channelPartnerRera: "",
   channelPartnerOffice: {
-    streetAddress: "Bhutani Alphathum, Tower B, 25th Floor, Sector 90",
+    streetAddress: "Bhutani Alphathum, Tower B, Sector 90",
     locality: "Noida",
     state: "Uttar Pradesh",
   },
@@ -39,7 +39,7 @@ export const project = {
   phoneHref: "+917304216059",
   /* wa.me expects the number in international format without "+" or spaces. */
   whatsapp: "917304216059",
-  email: "care@trecentobygaurs.com",
+  email: "kumaraman7122@gmail.com",
   website: "tracentobygaurs.com",
   addressLine: "Sun Court Tower - A, B6A (CT-4/Tower-A), Jaypee Greens, near Pari Chowk",
   locality: "Greater Noida",
