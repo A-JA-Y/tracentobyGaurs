@@ -7,15 +7,19 @@ import {
   distances,
   socialInfrastructure,
   futureInfrastructure,
+  channelPartnerAddress,
 } from "@/data/project";
 
+const PAGE_TITLE = "Trecento Residences Location | Gaur Project Near Jewar Airport";
+const PAGE_DESCRIPTION =
+  "Trecento Residences location at Jaypee Greens, a Gaur project near Jewar airport: Pari Chowk metro, Yamuna Expressway links and distance snapshot.";
+
 export const metadata: Metadata = {
-  title: "Trecento Residences Location | Jaypee Greens, Pari Chowk Connectivity",
-  description:
-    "Trecento Residences sits at Jaypee Greens near Pari Chowk, Greater Noida — minutes from the Aqua Line metro and the Yamuna Expressway, and about 30 minutes from Noida International Airport at Jewar.",
+  title: PAGE_TITLE,
+  description: PAGE_DESCRIPTION,
   alternates: { canonical: `${SITE_URL}/location-connectivity` },
   keywords:
-    "Trecento Residences location, Jaypee Greens location, Pari Chowk Greater Noida, Jewar airport distance, Yamuna Expressway connectivity, Greater Noida 201306",
+    "gaur projects near jewar airport, gaur projects in delhi ncr, gaur project in greater noida, Trecento Residences location, Jaypee Greens location, Pari Chowk Greater Noida, Jewar airport distance, Yamuna Expressway connectivity, Greater Noida 201306",
 };
 
 const whyLocationMatters = [
@@ -53,10 +57,6 @@ const faqData = [
     answer:
       "The case rests on an established Jaypee Greens address plus a pipeline of corridor infrastructure — the Jewar airport, Film City at Sector 21 YEIDA, a proposed Night Safari, a proposed international cricket stadium and metro expansion. This is informational, not investment advice.",
   },
-  {
-    question: "What is the PIN code for Trecento Residences?",
-    answer: "201306.",
-  },
 ];
 
 export default function LocationConnectivityPage() {
@@ -66,13 +66,12 @@ export default function LocationConnectivityPage() {
       <section className="w-full bg-white py-16 px-6" id="location">
         <div className="max-w-5xl mx-auto">
 
-          <p className="text-center text-xs font-bold uppercase mb-4 text-[#c8922a] tracking-[0.2em]">
-            Location &amp; Connectivity
-          </p>
-
-          <h1 className="text-center font-bold text-gray-900 mb-6 text-3xl md:text-4xl leading-tight">
-            Trecento Residences Location — Jaypee Greens, Pari Chowk, Greater Noida
+          <h1 className="text-center font-bold text-gray-900 mb-3 text-3xl md:text-4xl leading-tight">
+            Trecento Residences Location &amp; Connectivity
           </h1>
+          <h2 className="text-center font-semibold text-[#c8922a] mb-6 text-lg md:text-xl">
+            Jaypee Greens, Pari Chowk, Greater Noida
+          </h2>
 
           <div className="max-w-4xl mx-auto text-center mb-8">
             <p className="text-gray-600 leading-relaxed text-sm md:text-base">
@@ -81,8 +80,9 @@ export default function LocationConnectivityPage() {
               this page. The tower is not opening a new frontier — it is filling a plot inside an
               address that has been built, planted and lived in for years, with an international
               18-hole golf course wrapped around it, the Aqua Line metro a few minutes away and
-              the Yamuna Expressway entry roughly eight minutes out. For an ultra-luxury buyer,
-              that combination of a mature setting and a maturing corridor is the argument.
+              the Yamuna Expressway entry roughly eight minutes out. Among Gaur projects near
+              Jewar airport, few combine a mature setting with a maturing corridor this way — and
+              for an ultra-luxury buyer, that combination is the argument.
             </p>
             <div className="mt-4">
               <a
@@ -145,7 +145,8 @@ export default function LocationConnectivityPage() {
               <p className="text-gray-600 leading-relaxed mb-8 text-sm">
                 Jaypee Greens sits close to Pari Chowk, which is the junction the whole of Greater
                 Noida navigates by. From there, Delhi, the Yamuna Expressway corridor and the
-                upcoming Jewar airport are each a single clean drive.
+                upcoming Jewar airport are each a single clean drive — the reason this ranks
+                among the better-connected Gaur projects in Delhi NCR.
               </p>
 
               <ul className="space-y-4">
@@ -235,7 +236,7 @@ export default function LocationConnectivityPage() {
         >
           <div className="max-w-5xl mx-auto">
             <h2 className="font-bold text-gray-900 text-2xl md:text-3xl mb-4">
-              {group.category} Near Trecento Residences
+              {group.category} Nearby
             </h2>
             <p className="text-gray-600 leading-relaxed mb-4 text-sm">
               {group.category === "Education" &&
@@ -340,9 +341,8 @@ export default function LocationConnectivityPage() {
                 "@type": "WebPage",
                 "@id": `${SITE_URL}/location-connectivity#webpage`,
                 url: `${SITE_URL}/location-connectivity`,
-                name: "Trecento Residences Location | Jaypee Greens, Pari Chowk Connectivity",
-                description:
-                  "Trecento Residences sits at Jaypee Greens near Pari Chowk, Greater Noida — minutes from the Aqua Line metro and the Yamuna Expressway, and about 30 minutes from Noida International Airport at Jewar.",
+                name: PAGE_TITLE,
+                description: PAGE_DESCRIPTION,
                 breadcrumb: { "@id": `${SITE_URL}/location-connectivity#breadcrumb` },
                 about: { "@id": `${SITE_URL}/#residence` },
                 mainEntity: { "@id": `${SITE_URL}/location-connectivity#faq` },
@@ -383,14 +383,8 @@ export default function LocationConnectivityPage() {
                 image: `${SITE_URL}/trecento-hero.webp`,
                 telephone: project.phone,
                 email: project.email,
-                address: {
-                  "@type": "PostalAddress",
-                  streetAddress: project.addressLine,
-                  addressLocality: project.locality,
-                  addressRegion: project.state,
-                  postalCode: project.pin,
-                  addressCountry: "IN",
-                },
+                sameAs: [project.channelPartnerUrl],
+                address: channelPartnerAddress,
                 areaServed: { "@type": "City", name: "Greater Noida" },
               },
             ],

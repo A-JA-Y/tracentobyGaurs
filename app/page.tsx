@@ -5,7 +5,7 @@ import ReraStrip from "@/components/QRsectionsm";
 import ContactForm from "@/components/ContactForm";
 import ModalWrapper from "@/components/ModalWrapper";
 import HomePageHeader from "@/components/HomePageHeader";
-import { SITE_URL, project, faqs } from "@/data/project";
+import { SITE_URL, project, faqs, channelPartnerAddress } from "@/data/project";
 
 // Lazy load below-the-fold components
 const AboutProject = dynamic(() => import("@/components/AboutProject"));
@@ -28,8 +28,8 @@ export default function Home() {
   return (
     <div className="w-full">
       <h1 className="hidden">
-        Trecento Residences - A by Gaurs – 60 Ultra-Luxury 4 BHK Condominiums at Jaypee
-        Greens, Greater Noida
+        Trecento Residences – A Gaur New Project in Greater Noida | 60 Ultra-Luxury 4 BHK
+        Condominiums at Jaypee Greens
       </h1>
 
       {/* SCHEMA START */}
@@ -60,7 +60,7 @@ export default function Home() {
             "@id": `${SITE_URL}/#residence`,
             name: project.name,
             description:
-              "A single 30-storey cylindrical tower holding only 60 lavish 4 BHK condominiums, two per floor, in the middle of an international 18-hole golf course at Jaypee Greens, Greater Noida.",
+              "A Gaur new project in Greater Noida: a single 30-storey cylindrical tower holding only 60 lavish 4 BHK condominiums, two per floor, in the middle of an international 18-hole golf course at Jaypee Greens.",
             url: `${SITE_URL}/`,
             image: `${SITE_URL}/trecento-hero.webp`,
             numberOfAccommodationUnits: 60,
@@ -98,14 +98,8 @@ export default function Home() {
             email: project.email,
             priceRange: "₹₹₹",
             areaServed: { "@type": "City", name: "Greater Noida" },
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: project.addressLine,
-              addressLocality: project.locality,
-              addressRegion: project.state,
-              postalCode: project.pin,
-              addressCountry: "IN",
-            },
+            sameAs: [project.channelPartnerUrl],
+            address: channelPartnerAddress,
           }),
         }}
       />

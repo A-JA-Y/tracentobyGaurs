@@ -25,10 +25,20 @@ export const project = {
   totalBlocks: "01",
   rera: "UPRERAPRJ283531",
   reraUrl: "https://up-rera.in/projects",
-  channelPartner: "Realty Assistant Pvt. Ltd.",
-  channelPartnerRera: "UPRERAAGT18286",
-  phone: "+91 9220646888",
-  phoneHref: "+919220646888",
+  channelPartner: "Real Revenue",
+  channelPartnerWebsite: "realrevenue.in",
+  channelPartnerUrl: "https://realrevenue.in",
+  /* Real Revenue's UP RERA agent registration — every mention is hidden while this is empty. */
+  channelPartnerRera: "",
+  channelPartnerOffice: {
+    streetAddress: "Bhutani Alphathum, Tower B, 25th Floor, Sector 90",
+    locality: "Noida",
+    state: "Uttar Pradesh",
+  },
+  phone: "+91 73042 16059",
+  phoneHref: "+917304216059",
+  /* wa.me expects the number in international format without "+" or spaces. */
+  whatsapp: "917304216059",
   email: "care@trecentobygaurs.com",
   website: "tracentobygaurs.com",
   addressLine: "Sun Court Tower - A, B6A (CT-4/Tower-A), Jaypee Greens, near Pari Chowk",
@@ -44,6 +54,15 @@ export const project = {
     "https://maps.google.com/maps?q=Jaypee%20Greens%20Greater%20Noida&t=&z=14&ie=UTF8&iwloc=&output=embed",
   mapLink: "https://maps.google.com/?q=Jaypee+Greens+Greater+Noida",
   price: "On request - offer available on booking",
+} as const;
+
+/* Schema.org PostalAddress for the channel-partner office (RealEstateAgent blocks). */
+export const channelPartnerAddress = {
+  "@type": "PostalAddress",
+  streetAddress: project.channelPartnerOffice.streetAddress,
+  addressLocality: project.channelPartnerOffice.locality,
+  addressRegion: project.channelPartnerOffice.state,
+  addressCountry: "IN",
 } as const;
 
 /* ── Headline counters ─────────────────────────────────────────── */
@@ -90,7 +109,7 @@ export const whyDifferent = [
   "Two homes per floor, giving each residence a private-perch feeling.",
   "Golf-course frontage that cannot be built out in the future.",
   "A 452-acre township that is already built, living and green.",
-  "The Gaurs brand, active since 1995, behind a RERA-registered project.",
+  "The Gaurs brand - a name behind Gaur real estate since 1995 - behind a RERA-registered project.",
   "Ultra-thin resale supply by design - only 60 homes will ever exist.",
 ] as const;
 
@@ -197,7 +216,7 @@ export const investmentCase = [
   },
   {
     driver: "Developer",
-    why: "Gaurs has delivered 65 plus projects and 65,000 plus units since 1995, reducing execution risk on an under-construction purchase.",
+    why: "Gaurs, one of the most established names in Gaur real estate, has delivered 65 plus projects and 65,000 plus units since 1995, reducing execution risk on an under-construction purchase.",
   },
   {
     driver: "Timing",
@@ -413,10 +432,10 @@ export const developerStats = [
 ] as const;
 
 export const landmarkDevelopments = [
-  "Gaur City",
-  "Gaur Yamuna City",
-  "Gaur Saundaryam",
-  "The Islands by Gaurs",
+  { name: "Gaur City", note: "The group's flagship township in Greater Noida West" },
+  { name: "Gaur Yamuna City", note: "A large-format township on the Yamuna Expressway" },
+  { name: "Gaur Saundaryam", note: "Premium residential development in Noida Extension" },
+  { name: "The Islands by Gaurs", note: "Realty+ Luxury Project of the Year, 2022" },
 ] as const;
 
 /* ── FAQ ───────────────────────────────────────────────────────── */
@@ -443,7 +462,7 @@ export const faqs = [
   },
   {
     q: "What is the price of Trecento Residences?",
-    a: "Pricing is shared on request, with an offer currently available on booking. Quotes are unit-specific by floor and orientation. Call +91 9220646888 for the current sheet.",
+    a: `Pricing is shared on request, with an offer currently available on booking. Quotes are unit-specific by floor and orientation. Call ${project.phone} for the current sheet.`,
   },
   {
     q: "Who is the developer?",
@@ -467,7 +486,7 @@ export const faqs = [
   },
   {
     q: "How do I book a site visit?",
-    a: "Submit the enquiry form on this website or call the sales team directly on +91 9220646888.",
+    a: `Submit the enquiry form on this website or call the sales team directly on ${project.phone}.`,
   },
 ] as const;
 

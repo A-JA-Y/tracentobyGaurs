@@ -67,19 +67,21 @@ export default function AboutProject({ heading = false }) {
 
             <Reveal delay={90} className="mt-7 space-y-5 text-slate text-[14.5px] leading-[1.9]">
               <p>
-                Trecento Residences - A by Gaurs is a newly launched, deliberately low-density
-                residential landmark by the Gaursons Group at Jaypee Greens, Greater Noida. Its
-                name and character are drawn from the <em className="text-ink">Trecento</em> —
-                the 14th-century Italian age of art that seeded the Renaissance — and that
-                inspiration shapes everything from the tower&rsquo;s cylindrical silhouette to
-                the artistry of its landscape.
+                Trecento Residences - A by Gaurs is a newly launched Gaur new project and one of
+                the most anticipated Gaur Greater Noida new launches in recent years, developed by
+                the Gaursons Group at Jaypee Greens. Its name and character are drawn from the{" "}
+                <em className="text-ink">Trecento</em> — the 14th-century Italian age of art that
+                seeded the Renaissance — and that inspiration shapes everything from the
+                tower&rsquo;s cylindrical silhouette to the artistry of its landscape.
               </p>
               <p>
-                The tower ascends 30 storeys from within 182.92 hectares (452 acres) of Jaypee
-                Greens, standing in the middle of an international 18-hole golf course. Only two
-                condominiums occupy each floor, each wrapped in a continuous all-round balcony, so
-                every residence enjoys uninterrupted panoramic views, cross ventilation and a
-                sense of complete privacy. Sixty homes are the entire supply — permanently.
+                Unlike the high-density Gaur residential projects in Noida that most buyers
+                associate with the brand, Trecento is deliberately low-density: the tower ascends
+                30 storeys from within 182.92 hectares (452 acres) of Jaypee Greens, standing in
+                the middle of an international 18-hole golf course. Only two condominiums occupy
+                each floor, each wrapped in a continuous all-round balcony, so every residence
+                enjoys uninterrupted panoramic views, cross ventilation and a sense of complete
+                privacy. Sixty homes are the entire supply — permanently.
               </p>
             </Reveal>
 

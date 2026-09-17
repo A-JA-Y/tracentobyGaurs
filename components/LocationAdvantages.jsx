@@ -27,9 +27,10 @@ export default function LocationAdvantages() {
 
             <p className="text-gray-600 leading-relaxed mb-8 text-sm">
               The tower stands inside Jaypee Greens, a 452-acre township near Pari Chowk that is
-              already built, planted and lived in. From there, the Aqua Line metro, both
-              expressways and the upcoming Noida International Airport at Jewar are each a single
-              clean drive.
+              already built, planted and lived in — making it one of the more distinctive Gaur
+              apartments in Greater Noida for buyers who want infrastructure in place from day
+              one. From there, the Aqua Line metro, both expressways and the upcoming Noida
+              International Airport at Jewar are each a single clean drive.
             </p>
 
             <ul className="space-y-4">

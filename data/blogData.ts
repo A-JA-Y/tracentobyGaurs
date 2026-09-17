@@ -117,7 +117,7 @@ export const blogData: BlogMeta[] = [
           name: "What is the price of Trecento Residences?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Pricing is shared on request, with an offer currently available on booking. Quotes are unit-specific because floor level, golf-course orientation, payment plan and live availability across only 60 units all move the number. Call +91 9220646888 for the current sheet.",
+            text: "Pricing is shared on request, with an offer currently available on booking. Quotes are unit-specific because floor level, golf-course orientation, payment plan and live availability across only 60 units all move the number. Call +91 73042 16059 for the current sheet.",
           },
         },
         {
@@ -173,7 +173,7 @@ export const blogData: BlogMeta[] = [
           name: "How do I book a site visit at Trecento Residences?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Submit the enquiry form on this website or call the authorised channel-partner sales team on +91 9220646888.",
+            text: "Submit the enquiry form on this website or call the authorised channel-partner sales team on +91 73042 16059.",
           },
         },
       ],

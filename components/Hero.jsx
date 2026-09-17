@@ -107,7 +107,9 @@ export default function Hero() {
           >
             Only 60 lavish 4 BHK condominiums for 60 select families — a single cylindrical
             tower of 30 storeys rising in the middle of an international 18-hole golf course
-            at Jaypee Greens, Greater Noida.
+            at Jaypee Greens, Greater Noida. As one of the most exclusive Gaur luxury projects
+            and Gaur apartments in Greater Noida to date, Trecento sets a new benchmark among
+            Gaur upcoming projects in the region.
           </p>
 
           <div

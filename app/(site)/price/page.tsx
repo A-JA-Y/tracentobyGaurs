@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import PageBanner from "@/components/PageBanner";
 import EmiCalculator from "@/components/EmiCalculator";
-import ReasonsToInvest from "@/components/ReasonToInvest";
+import ReasonsToInvest, {
+  innerPageKeyReasons,
+  innerPageAdditionalValue,
+} from "@/components/ReasonToInvest";
 import StickyDownloadButton from "@/components/StickyButton";
 import {
   SITE_URL,
@@ -14,12 +17,12 @@ import {
 } from "@/data/project";
 
 export const metadata: Metadata = {
-  title: "Trecento Residences Price 2026 | 4 BHK Condominium Price List, Jaypee Greens",
+  title: "Trecento Price List 2026 | 4 BHK Gaur Project in Greater Noida",
   description:
-    "Trecento Residences price is shared on request, with an offer available on booking. See the Type 1 and Type 2 price table, what moves a quote, the EMI calculator and finance partners.",
+    "Trecento Residences price, a Gaur project in Greater Noida: Type 1 and Type 2 4 BHK rates on request, payment plans, EMI calculator and booking offer.",
   alternates: { canonical: `${SITE_URL}/price` },
   keywords:
-    "Trecento Residences price, Trecento Residences price list, Trecento by Gaurs price, Jaypee Greens 4 BHK price, Trecento Residences booking offer",
+    "gaur project in greater noida, gaur new project, gaur upcoming projects, Trecento Residences price, Trecento Residences price list, Trecento by Gaurs price, Jaypee Greens 4 BHK price, Trecento Residences booking offer",
 };
 
 export default function PricePage() {
@@ -41,7 +44,7 @@ export default function PricePage() {
 
       <PageBanner
         eyebrow="Investment"
-        title="Price"
+        title="Trecento Residences Price"
         subtitle="Trecento Residences - A by Gaurs · Jaypee Greens, Greater Noida"
       />
 
@@ -50,7 +53,7 @@ export default function PricePage() {
 
           <div className="prose max-w-none text-gray-700">
             <h1 className="text-3xl font-semibold text-gray-900 mb-6 border-b pb-4">
-              Trecento Residences Price — Jaypee Greens, Greater Noida
+              4 BHK Condominium Pricing at Jaypee Greens, Greater Noida
             </h1>
             <p className="text-lg leading-relaxed mb-6">
               The price of a condominium at Trecento Residences is{" "}
@@ -70,9 +73,10 @@ export default function PricePage() {
             </Link>
 
             <p className="mt-8 text-base leading-relaxed">
-              Trecento Residences - A by Gaurs is a single cylindrical tower of 30 storeys at
-              Jaypee Greens, near Pari Chowk, holding 60 lavish 4 BHK condominiums — two per
-              floor — of 5000 and 5050 sq. ft. saleable. The project entity is {project.entity}{" "}
+              Trecento Residences - A by Gaurs is a Gaur new project at Jaypee Greens, near Pari
+              Chowk — a single cylindrical tower of 30 storeys holding 60 lavish 4 BHK
+              condominiums, two per floor, of 5000 and 5050 sq. ft. saleable. The project entity
+              is {project.entity}{" "}
               (LLP ID {project.entityId}) and it is registered with UP RERA under{" "}
               <strong>{project.rera}</strong>. Launched in October 2023, it is under construction
               with a proposed completion of {project.completion}.
@@ -81,7 +85,7 @@ export default function PricePage() {
 
           <div>
             <h2 className="text-2xl font-semibold text-gray-900 mb-6">
-              Trecento Residences Price List 2026
+              Price List 2026
             </h2>
             <p className="mb-6 text-gray-700">
               Both condominium types are 4 BHK. The table below sets the RERA carpet area against
@@ -121,7 +125,7 @@ export default function PricePage() {
               href="/contact-us"
               className="inline-block text-[#c8922a] hover:underline font-semibold"
             >
-              Request the Official Trecento Residences Price List &rarr;
+              Request the Official Price List &rarr;
             </Link>
           </div>
 
@@ -272,8 +276,8 @@ export default function PricePage() {
               and the offer your bank has actually made you.
             </p>
             <p className="italic text-sm text-gray-500 mb-6">
-              (EMI figures are indicative and for planning purposes only; actual rates depend on
-              your lender and profile.)
+              EMI figures are indicative and for planning purposes only; actual rates depend on
+              your lender and profile.
             </p>
           </div>
 
@@ -319,7 +323,11 @@ export default function PricePage() {
       </section>
 
       <EmiCalculator />
-      <ReasonsToInvest />
+      <ReasonsToInvest
+        intro="Most NCR luxury towers hold 300 to 800 apartments. This one holds 60, two per floor, inside an established 452-acre township — which is what keeps resale volumes thin and the address legible to buyers comparing it against other Gaur upcoming projects in the region."
+        keyReasons={innerPageKeyReasons}
+        additionalValue={innerPageAdditionalValue}
+      />
       <div className="relative">
         <StickyDownloadButton />
       </div>

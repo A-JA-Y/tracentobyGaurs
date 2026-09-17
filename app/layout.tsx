@@ -32,9 +32,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
 
   title:
-    "Trecento Residences - A by Gaurs | 4 BHK Condominiums at Jaypee Greens, Greater Noida",
+    "Trecento Residences – A Gaur New Project in Greater Noida | 4 BHK at Jaypee Greens",
   description:
-    "Trecento Residences - A by Gaurs offers only 60 ultra-luxury 4 BHK condominiums in a 30-storey tower inside an 18-hole golf course at Jaypee Greens, Greater Noida. UP RERA UPRERAPRJ283531.",
+    "Trecento Residences is a new Gaur project in Greater Noida — 60 ultra-luxury 4 BHK condominiums in a 30-storey tower inside an 18-hole golf course at Jaypee Greens. A rare Gaur luxury project from one of the most established names in Gaur real estate. UP RERA UPRERAPRJ283531.",
 
   alternates: {
     canonical: `${SITE_URL}/`,
@@ -45,9 +45,10 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Trecento Residences - A by Gaurs | Jaypee Greens, Greater Noida",
+    title:
+      "Trecento Residences – A Gaur New Project in Greater Noida | 4 BHK at Jaypee Greens",
     description:
-      "Only 60 residences for 60 select families — 5000+ sq. ft. 4 BHK condominiums, two per floor, in the middle of an 18-hole golf course.",
+      "Only 60 residences for 60 select families — a Gaur Greater Noida new launch, 5000+ sq. ft. 4 BHK condominiums, two per floor, in the middle of an 18-hole golf course.",
     url: `${SITE_URL}/`,
     siteName: "Trecento Residences - A by Gaurs",
     images: [
@@ -64,7 +65,8 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Trecento Residences - A by Gaurs | Jaypee Greens, Greater Noida",
+    title:
+      "Trecento Residences – A Gaur New Project in Greater Noida | 4 BHK at Jaypee Greens",
     description:
       "60 exclusive 4 BHK condominiums, two per floor, in a 30-storey golf-course tower at Jaypee Greens.",
     images: [`${SITE_URL}/trecento-hero.webp`],
@@ -72,6 +74,7 @@ export const metadata: Metadata = {
 };
 
 import { ModalProvider } from "@/components/ModalContext";
+import FloatingContactButtons from "@/components/FloatingContactButtons";
 
 export default function RootLayout({
   children,
@@ -111,6 +114,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <ModalProvider>
           {children}
         </ModalProvider>
+        <FloatingContactButtons />
       </body>
     </html>
   );

@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PageBanner from "@/components/PageBanner";
-import ReasonsToInvest from "@/components/ReasonToInvest";
+import ReasonsToInvest, {
+  innerPageKeyReasons,
+  innerPageAdditionalValue,
+} from "@/components/ReasonToInvest";
 import ResidenceFeatures from "@/components/PremiumInventory";
 import StickyDownloadButton from "@/components/StickyButton";
 import {
@@ -14,18 +17,18 @@ import {
 } from "@/data/project";
 
 export const metadata: Metadata = {
-  title: "Trecento Residences Condominiums | 4 BHK Type 1 & Type 2, 5000–5050 Sq. Ft.",
+  title: "4 BHK Condominiums at Trecento | Gaur Apartments Greater Noida",
   description:
-    "Two 4 BHK condominium layouts at Trecento Residences — Type 1 at 5050 sq. ft. and Type 2 at 5000 sq. ft. saleable, both with an 806.65 sq. ft. all-round balcony. Full areas and specifications.",
+    "Two 4 BHK layouts at Trecento Residences, a Gaur project in Greater Noida: 5050 and 5000 sq. ft. saleable, each with an 806.65 sq. ft. all-round balcony.",
   alternates: { canonical: `${SITE_URL}/condominiums` },
   keywords:
-    "Trecento Residences condominiums, Trecento 4 BHK, Trecento Type 1 Type 2, 5000 sq ft apartment Greater Noida, Jaypee Greens 4 BHK",
+    "gaur apartments greater noida, gaur residential projects in noida, gaur project in greater noida, Trecento Residences condominiums, Trecento 4 BHK, Trecento Type 1 Type 2, 5000 sq ft apartment Greater Noida, Jaypee Greens 4 BHK",
 };
 
 const layoutAdvantages = [
   {
     title: "Two homes per floor",
-    body: "Only two condominiums occupy each of the 30 floors, giving each residence privacy, cross exposure and its own approach from the lift lobby.",
+    body: "Only two condominiums occupy each of the 30 floors, giving each residence privacy, cross exposure and its own approach from the lift lobby — a density almost unheard of across Gaur residential projects in Noida.",
   },
   {
     title: "A balcony that never stops",
@@ -74,7 +77,7 @@ export default function CondominiumsPage() {
 
           <div className="prose max-w-none text-gray-700">
             <h1 className="text-3xl font-semibold text-gray-900 mb-6 border-b pb-4">
-              Trecento Residences Condominium Types — Complete Area Chart
+              Two 4 BHK Layouts — Type 1 at 5050 Sq. Ft. and Type 2 at 5000 Sq. Ft.
             </h1>
             <p className="text-lg leading-relaxed mb-6">
               Trecento Residences offers exactly two configurations, because the building offers
@@ -83,7 +86,8 @@ export default function CondominiumsPage() {
               measures 464.51 sq. mt. — <strong>5000 sq. ft.</strong> saleable. Both are 4 BHK,
               both carry an 806.65 sq. ft. continuous all-round balcony, and both run an identical
               room schedule. Across 30 storeys that produces 60 residences in total — the entire
-              supply, permanently. The project is registered with UP RERA under{" "}
+              supply, permanently. Among Gaur apartments in Greater Noida, this is the rarest
+              floor plate the brand has offered. The project is registered with UP RERA under{" "}
               <strong>{project.rera}</strong> (verify at up-rera.in/projects).
             </p>
           </div>
@@ -290,7 +294,11 @@ export default function CondominiumsPage() {
         <StickyDownloadButton />
       </div>
       <ResidenceFeatures />
-      <ReasonsToInvest />
+      <ReasonsToInvest
+        intro="Most NCR luxury towers hold 300 to 800 apartments. This one holds 60, two per floor, inside an established 452-acre township — which is what keeps resale volumes thin and the address legible to buyers scanning the wider list of Gaur upcoming projects."
+        keyReasons={innerPageKeyReasons}
+        additionalValue={innerPageAdditionalValue}
+      />
     </>
   );
 }

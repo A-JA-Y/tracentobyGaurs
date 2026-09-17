@@ -68,13 +68,24 @@ export default function Footer() {
 
           <div>
             <p className="text-[#c9a84c] text-[11px] font-semibold tracking-widest uppercase mb-3">
-              Corporate Office
+              Channel Partner Office
+            </p>
+            <p className="text-gray-300 text-xs font-semibold mb-2">
+              <a
+                href={project.channelPartnerUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[#DCA54A] transition-colors"
+              >
+                {project.channelPartner} ({project.channelPartnerWebsite})
+              </a>
             </p>
             <div className="flex items-start gap-1.5 text-gray-300 text-xs mb-2">
               <svg className="w-3 h-3 text-[#c9a84c] flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
               </svg>
-              {project.corporateOffice}
+              {project.channelPartnerOffice.streetAddress}, {project.channelPartnerOffice.locality},{" "}
+              {project.channelPartnerOffice.state}
             </div>
             <div className="flex items-center gap-1.5 text-gray-300 text-xs mb-2">
               <svg className="w-3 h-3 text-[#c9a84c] flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -92,14 +103,19 @@ export default function Footer() {
                 {project.email}
               </a>
             </div>
+
+            <p className="text-[#c9a84c] text-[11px] font-semibold tracking-widest uppercase mt-5 mb-2">
+              Developer Corporate Office
+            </p>
+            <p className="text-gray-400 text-xs leading-relaxed">{project.corporateOffice}</p>
           </div>
         </div>
 
         <div className="text-center mb-4">
           <p className="text-xs text-gray-400 leading-relaxed">
             Disclaimer : This is not the official website of developer, it belongs
-            to the authorised channel partner {project.channelPartner} (RERA{" "}
-            {project.channelPartnerRera}) for information &amp; marketing purposes
+            to the authorised channel partner {project.channelPartner} ({project.channelPartnerWebsite}
+            {project.channelPartnerRera && `, RERA ${project.channelPartnerRera}`}) for information &amp; marketing purposes
             only. All rights for logo &amp; images are reserved by the developer. By
             using or accessing this website you agree with the disclaimer without
             any limitation. By accessing this website, the viewer confirms that
@@ -117,7 +133,15 @@ export default function Footer() {
         <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-2 text-center">
           <p className="text-[#fff] text-xs tracking-wide">
             Copyright &copy; 2026{" "}
-            <span className="font-bold">{project.shortName}</span> All Rights Reserved
+            <a
+              href={project.channelPartnerUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-bold hover:text-[#DCA54A] transition-colors"
+            >
+              {project.channelPartnerWebsite}
+            </a>{" "}
+            · Official Channel Partner · All Rights Reserved
           </p>
           <span className="text-white/20 hidden sm:inline">|</span>
           <Link href="/privacy-policy" className="text-[#fff] text-xs hover:text-[#DCA54A] transition-colors">

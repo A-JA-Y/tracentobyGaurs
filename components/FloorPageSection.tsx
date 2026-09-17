@@ -87,14 +87,15 @@ export default function FloorPlanSection() {
         {/* H1 Heading */}
         <div className="text-center">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Trecento Residences Floor Plan — Condominium Type 1 &amp; Type 2
+            Condominium Type 1 &amp; Type 2 — Two 4 BHK Layouts at Jaypee Greens
           </h1>
           <p className="text-gray-600 max-w-4xl mx-auto text-sm md:text-base leading-relaxed">
             Trecento Residences has just two floor plans, because it has just two homes per floor.
             Across 30 storeys that makes 60 condominiums in total — Condominium Type 1 at 5050 sq.
             ft. saleable and Condominium Type 2 at 5000 sq. ft. saleable, both 4 BHK, both wrapped
-            in a continuous 806.65 sq. ft. all-round balcony. The pages below set out the carpet,
-            covered, balcony, common and saleable areas for each, alongside the site plan for the
+            in a continuous 806.65 sq. ft. all-round balcony. For a Gaur project in Greater Noida,
+            that is an unusually generous floor plate. The pages below set out the carpet, covered,
+            balcony, common and saleable areas for each, alongside the site plan for the
             Renaissance landscape at the base of the tower.
           </p>
           <button
@@ -151,13 +152,14 @@ export default function FloorPlanSection() {
         {/* H2 - Plan cards */}
         <div className="mt-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center mb-6">
-            Trecento Residences Floor Plan Configurations
+            Floor Plan Configurations
           </h2>
           <p className="text-gray-600 text-center max-w-3xl mx-auto text-sm mb-10">
             Every home at Trecento is a 4 BHK condominium in a single cylindrical tower — not a
             villa, not a cluster. With two condominiums to a floor, each residence gets cross
             exposure, its own private lift lobby approach and an uninterrupted panoramic outlook
-            over the 18-hole golf course.
+            over the 18-hole golf course. Few Gaur apartments in Greater Noida are planned at this
+            density.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
@@ -194,7 +196,7 @@ export default function FloorPlanSection() {
                 <div className="p-4">
                   <h3 className="text-lg font-bold text-gray-900">
                     Condominium {plan.type}{" "}
-                    <span className="text-sm font-normal">({plan.size})</span>
+                    <span className="text-sm font-normal">&mdash; {plan.size}</span>
                   </h3>
                   <p className="text-sm text-[#DCA54A] font-semibold">
                     {plan.config} · {plan.price}
@@ -366,7 +368,7 @@ export default function FloorPlanSection() {
         {/* H2 - PDF Download Section */}
         <div className="mt-8 bg-gray-50 rounded-lg p-6 md:p-8 text-center border border-gray-200">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            Trecento Residences Floor Plan PDF — Download
+            Floor Plan PDF — Download
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-sm mb-6">
             The official brochure contains the Type 1 and Type 2 drawings, the cluster plan, the
@@ -422,13 +424,14 @@ export default function FloorPlanSection() {
         {/* H2 - Price Info */}
         <div className="text-center text-sm text-gray-500 mt-4">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            Trecento Residences Floor Plan Price
+            Floor Plan Price
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Pricing for both Type 1 and Type 2 is shared on request, with an offer currently
             available on booking. Quotes are unit-specific — floor level, orientation over the golf
             course, payment plan and live availability across only 60 units all move the final
-            number, which is why a single published rate would be misleading.
+            number, which is why a single published rate would be misleading. This is one of the
+            few Gaur luxury projects where every quote is built unit by unit.
           </p>
           <p className="mt-3">
             For the current sheet, visit the{" "}

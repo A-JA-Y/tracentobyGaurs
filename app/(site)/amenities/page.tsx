@@ -11,15 +11,16 @@ import {
   bloomsburyAmenities,
   townshipPrivileges,
   peaceOfMind,
+  channelPartnerAddress,
 } from "@/data/project";
 
 export const metadata: Metadata = {
-  title: "Trecento Residences Amenities | Renaissance Landscape & Bloomsbury Clubhouse",
+  title: "Trecento Residences Amenities | Gaur Project in Greater Noida",
   description:
-    "Explore the amenities at Trecento Residences — the Renaissance landscape with its arched skywalk, stepped pool and amphitheatre, the Bloomsbury clubhouse, and Jaypee Greens township privileges.",
+    "Amenities at Trecento Residences, a Gaur project in Greater Noida: Renaissance landscape, Bloomsbury clubhouse and 452-acre Jaypee Greens privileges.",
   alternates: { canonical: `${SITE_URL}/amenities` },
   keywords:
-    "Trecento Residences amenities, Renaissance landscape, Bloomsbury clubhouse, Jaypee Greens amenities, skywalk, stepped pool, Greater Noida luxury amenities",
+    "gaur project in greater noida, gaur luxury projects, gaur apartments greater noida, Trecento Residences amenities, Renaissance landscape, Bloomsbury clubhouse, Jaypee Greens amenities, skywalk, stepped pool, Greater Noida luxury amenities",
 };
 
 const faqs = [
@@ -107,14 +108,8 @@ export default function AmenitiesPage() {
             email: project.email,
             priceRange: "₹₹₹",
             areaServed: { "@type": "Place", name: "Greater Noida, Uttar Pradesh" },
-            address: {
-              "@type": "PostalAddress",
-              streetAddress: project.addressLine,
-              addressLocality: project.locality,
-              addressRegion: project.state,
-              postalCode: project.pin,
-              addressCountry: "IN",
-            },
+            sameAs: [project.channelPartnerUrl],
+            address: channelPartnerAddress,
             openingHoursSpecification: {
               "@type": "OpeningHoursSpecification",
               dayOfWeek: [
@@ -167,9 +162,12 @@ export default function AmenitiesPage() {
       {/* Intro */}
       <section className="w-full py-16 px-6 md:px-12 lg:px-20 bg-white">
         <div className="max-w-5xl mx-auto">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-3">
             Trecento Residences Amenities
           </h1>
+          <h2 className="text-xl md:text-2xl font-semibold text-[#c8922a] mb-6">
+            A Landscape Called Renaissance, a Clubhouse Called Bloomsbury
+          </h2>
 
           <p className="text-lg md:text-xl leading-relaxed text-gray-700 mb-6">
             Amenities at Trecento Residences work at two scales, and it is worth being precise
@@ -180,12 +178,18 @@ export default function AmenitiesPage() {
             established township, developed and managed by Jaiprakash Associates Ltd., with an
             18-hole international golf course at its centre.
           </p>
+          <p className="text-lg md:text-xl leading-relaxed text-gray-700 mb-6">
+            The distinction matters because it changes what you are buying. Most Gaur luxury
+            projects and new launches across the corridor have to build their entire amenity story
+            from scratch and ask you to believe the renders. Here the township already exists,
+            already works, and already has the trees. What the project adds on top is deliberately
+            small and deliberately private — because it is being shared by sixty families, not six
+            hundred.
+          </p>
           <p className="text-lg md:text-xl leading-relaxed text-gray-700">
-            The distinction matters because it changes what you are buying. Most new luxury
-            projects have to build their entire amenity story from scratch and ask you to believe
-            the renders. Here the township already exists, already works, and already has the
-            trees. What the project adds on top is deliberately small and deliberately private —
-            because it is being shared by sixty families, not six hundred.
+            Community facilities are shared between Tower A and the future development tower.
+            Beyond the gates, the wider Jaypee Greens township adds an 18-hole golf course, a
+            practice range, the Boomerang Club and The Atlantic sports complex.
           </p>
         </div>
       </section>
@@ -268,9 +272,10 @@ export default function AmenitiesPage() {
           </h2>
           <p className="text-lg leading-relaxed text-gray-700 mb-8">
             The township is developed and managed by Jaiprakash Associates Ltd. Its 18-hole
-            course was designed by Greg Norman and is among the longest in the world. Note that
-            certain facilities listed below are members-only and/or chargeable — confirm access
-            terms with the sales team rather than assuming they come with the home.
+            course was designed by Greg Norman and is among the longest in the world — a setting
+            that separates this address from the wider list of Gaur apartments in Greater Noida.
+            Note that certain facilities listed below are members-only and/or chargeable — confirm
+            access terms with the sales team rather than assuming they come with the home.
           </p>
 
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">

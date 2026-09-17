@@ -7,16 +7,16 @@ import StickyDownloadButton from "@/components/StickyButton";
 import { SITE_URL } from "@/data/project";
 
 export const metadata: Metadata = {
-  title: "Trecento Residences Floor Plan | Type 1 & Type 2 4 BHK Plans & PDF",
+  title: "Trecento Floor Plan PDF | 4 BHK Gaur Project in Greater Noida",
   description:
-    "Explore the Trecento Residences floor plans — Condominium Type 1 at 5050 sq. ft. and Type 2 at 5000 sq. ft. saleable, both 4 BHK with an 806.65 sq. ft. all-round balcony. Download the PDF.",
+    "Trecento Residences floor plans, a Gaur project in Greater Noida: Type 1 at 5050 sq. ft. and Type 2 at 5000 sq. ft., both 4 BHK. Download the PDF.",
   alternates: {
     canonical: `${SITE_URL}/floor-plans`,
   },
   keywords:
-    "Trecento Residences floor plan, Trecento Type 1 floor plan, Trecento Type 2 floor plan, 4 BHK floor plan Jaypee Greens, Trecento site plan, Trecento floor plan PDF",
+    "gaur project in greater noida, gaur apartments greater noida, gaur luxury projects, Trecento Residences floor plan, Trecento Type 1 floor plan, Trecento Type 2 floor plan, 4 BHK floor plan Jaypee Greens, Trecento site plan, Trecento floor plan PDF",
   openGraph: {
-    title: "Trecento Residences Floor Plan | Type 1 & Type 2 4 BHK Plans & PDF",
+    title: "Trecento Floor Plan PDF | 4 BHK Gaur Project in Greater Noida",
     description:
       "Condominium Type 1 (5050 sq. ft.) and Type 2 (5000 sq. ft.) — two 4 BHK layouts, two homes per floor, across a 30-storey golf-course tower at Jaypee Greens.",
     url: `${SITE_URL}/floor-plans`,

@@ -42,7 +42,12 @@ const QRSection = () => {
           </p>
           <p className="mb-2">
             <strong className="tracking-widest">CHANNEL PARTNER</strong>:{" "}
-            {project.channelPartner} · RERA {project.channelPartnerRera}
+            {project.channelPartner} ({project.channelPartnerWebsite})
+            {project.channelPartnerRera && ` · RERA ${project.channelPartnerRera}`}
+          </p>
+          <p className="mb-2 text-[#cccccc] text-[12px]">
+            {project.channelPartnerOffice.streetAddress}, {project.channelPartnerOffice.locality},{" "}
+            {project.channelPartnerOffice.state} · {project.phone}
           </p>
 
           <p className="mb-0">

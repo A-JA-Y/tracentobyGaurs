@@ -24,7 +24,8 @@ export default function PrivacyPolicyPage() {
             <h2 className="text-lg font-semibold text-gray-900 mb-3">Disclaimer</h2>
             <p>
               This is not the official website of the developer. It belongs to{" "}
-              {project.channelPartner} (RERA {project.channelPartnerRera}), the authorised
+              {project.channelPartner} ({project.channelPartnerWebsite}
+              {project.channelPartnerRera && `, RERA ${project.channelPartnerRera}`}), the authorised
               channel partner for {project.name}, and exists for information and marketing
               purposes only. All rights for logos and images are reserved by the developer.
             </p>

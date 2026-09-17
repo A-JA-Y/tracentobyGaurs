@@ -5,10 +5,13 @@ import submitForm from "@/api/submitform";
 import { theme } from "@/utils/theme";
 import { InputField, TextareaField } from "@/components/form/InputFields";
 import Logo from "@/components/Logo";
+import { project } from "@/data/project";
 
 export default function EnquirySection({
-  heading = "29+ Years Of Unfaltering Commitment",
-  body = "At Trecento Residences, luxury isn't just built — it's beautifully lived. The Gaursons Group has been shaping the National Capital Region since 1995, with 65+ delivered projects, 65,000+ delivered homes and over a lakh happy customers behind it. Trecento is the most deliberate expression of that legacy: a single cylindrical tower of 30 storeys holding only 60 condominiums, two to a floor, rising from the middle of an international 18-hole golf course at Jaypee Greens. Sixty homes for sixty select families — that is the entire supply, permanently. Step into the enduring legacy of Gaurs.",
+  heading = "29+ Years of Unfaltering Commitment",
+  body = "At Trecento Residences, luxury isn't just built — it's beautifully lived. The Gaursons Group has been a leading name in Gaur real estate and Gaur residential projects in Noida since 1995, with 65+ delivered projects, 65,000+ delivered homes and over a lakh happy customers across its Gaur projects in Delhi NCR. Trecento is the most deliberate expression of that legacy: a single cylindrical tower of 30 storeys holding only 60 condominiums, two to a floor, rising from the middle of an international 18-hole golf course at Jaypee Greens. Sixty homes for sixty select families — that is the entire supply, permanently. Step into the enduring legacy of one of the region's most established Gaur developers.",
+  note = "For verified project details, always cross-check against the Gaur official website and the RERA listing at up-rera.in.",
+  showCorporateOffice = true,
 }) {
   const router = useRouter();
   const [form, setForm] = useState({ name: "", phone: "", email: "" });
@@ -75,6 +78,27 @@ export default function EnquirySection({
 
           {/* Body */}
           <p className={`${theme.fontBody} ${theme.textSecondary}`}>{body}</p>
+
+          {note && (
+            <p className={`${theme.fontBody} ${theme.textMuted} text-xs`}>
+              {note}{" "}
+              <a
+                href={project.reraUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:no-underline"
+              >
+                Verify on UP RERA
+              </a>
+              .
+            </p>
+          )}
+
+          {showCorporateOffice && (
+            <p className={`${theme.fontBody} ${theme.textMuted} text-xs`}>
+              Corporate Office: {project.corporateOffice}
+            </p>
+          )}
 
           <hr className="border-[#C8BFA0] w-[30%] mt-2 hidden lg:block" />
         </div>
