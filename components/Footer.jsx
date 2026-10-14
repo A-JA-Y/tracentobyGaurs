@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { footerNavLinks } from "@/data/siteNav";
+import { networkSites } from "@/data/networkSites";
 import { project } from "@/data/project";
 
 const PERIDONA_URL = "https://thecrcperidona.com";
@@ -20,6 +21,7 @@ export default function Footer() {
   const half = Math.ceil(footerNavLinks.length / 2);
   const col1 = footerNavLinks.slice(0, half);
   const col2 = footerNavLinks.slice(half);
+  const additionalLinks = networkSites.filter((site) => site.id !== "trecento-residences");
 
   return (
     <footer className="w-full bg-[#141004] border-t border-[rgba(242,242,242,0.11)] px-4 sm:px-[30px] py-6 sm:py-[20px] font-[400]">
@@ -148,6 +150,27 @@ export default function Footer() {
                   className="text-xs font-bold text-white hover:text-[#DCA54A] transition-colors"
                 >
                   {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Additional Links — sister project websites */}
+        <div className="mb-8">
+          <p className="text-[#c9a84c] text-[11px] font-semibold tracking-widest uppercase mb-3">
+            Additional Links
+          </p>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-6 lg:gap-x-8 gap-y-2">
+            {additionalLinks.map((site) => (
+              <li key={site.id}>
+                <a
+                  href={site.url}
+                  target="_blank"
+                  rel="noopener"
+                  className="text-gray-300 text-xs hover:text-[#DCA54A] transition-colors"
+                >
+                  {site.name}
                 </a>
               </li>
             ))}
