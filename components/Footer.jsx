@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { footerNavLinks } from "@/data/siteNav";
+import { footerNavLinks, guideLinks } from "@/data/siteNav";
 import { networkSites } from "@/data/networkSites";
 import { project } from "@/data/project";
 
@@ -80,6 +80,23 @@ export default function Footer() {
                 ))}
               </ul>
             </div>
+
+            {/* Standalone buyer-guide pages */}
+            <p className="text-[#c9a84c] text-[11px] font-semibold tracking-widest uppercase mt-6 mb-3">
+              Buyer Guides
+            </p>
+            <ul className="flex flex-col gap-2">
+              {guideLinks.map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className="text-gray-300 text-xs hover:text-[#DCA54A] transition-colors"
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
 
           <div>

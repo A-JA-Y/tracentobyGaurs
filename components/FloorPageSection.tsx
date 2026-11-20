@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import plan1 from "@/assets/tower-1.webp";
 import plan2 from "@/assets/tower-2.webp";
@@ -146,6 +147,16 @@ export default function FloorPlanSection() {
           <p className="text-xs text-gray-500 mt-3 text-center">
             Areas are reproduced from the official brochure and are subject to final measurement.
             Verify against the RERA filing for {project.rera} at up-rera.in/projects.
+          </p>
+          <p className="text-sm text-gray-600 mt-3 text-center">
+            Seen a different carpet area on a listing?{" "}
+            <Link
+              href="/super-built-up-area-vs-carpet-area"
+              className="text-[#DCA54A] hover:underline font-semibold"
+            >
+              Read super built-up area vs carpet area
+            </Link>
+            .
           </p>
         </div>
 

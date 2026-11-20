@@ -124,6 +124,16 @@ export default function CondominiumsPage() {
             <Link href="/floor-plans" className="text-[#c8922a] hover:underline font-semibold">
               View the Type 1 and Type 2 floor plans &rarr;
             </Link>
+            <p className="mt-3 text-sm text-gray-600">
+              Comparing these figures with a listing?{" "}
+              <Link
+                href="/super-built-up-area-vs-carpet-area"
+                className="text-[#c8922a] hover:underline font-semibold"
+              >
+                Super built-up area vs carpet area, explained
+              </Link>
+              .
+            </p>
           </div>
 
           {/* Room programme */}
@@ -161,6 +171,16 @@ export default function CondominiumsPage() {
                 </div>
               ))}
             </div>
+            <p className="mt-6 text-sm text-gray-600">
+              Moving from a kothi or villa?{" "}
+              <Link
+                href="/villa-vs-flat-downsizing-jaypee-greens"
+                className="text-[#c8922a] hover:underline font-semibold"
+              >
+                Read villa vs flat for downsizers
+              </Link>
+              .
+            </p>
           </div>
 
           {/* Condominium specifications */}
