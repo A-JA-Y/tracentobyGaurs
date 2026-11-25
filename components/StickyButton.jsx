@@ -22,7 +22,7 @@ export default function StickyDownloadButton() {
     <button
       onClick={handleClick}
       className="
-        fixed bottom-16 right-0
+        fixed bottom-56 right-0
         flex flex-col items-center justify-center
         bg-[#c8952a] text-white font-semibold
         shadow-lg transition-colors duration-200

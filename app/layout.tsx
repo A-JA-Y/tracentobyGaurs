@@ -39,10 +39,6 @@ export const metadata: Metadata = {
     canonical: `${SITE_URL}/`,
   },
 
-  icons: {
-    icon: "/favicon.ico",
-  },
-
   openGraph: {
     title: "Trecento Residences | Gaur New Project in Greater Noida",
     description:
